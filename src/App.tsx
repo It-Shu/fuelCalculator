@@ -13,8 +13,6 @@ function App() {
     const takeValueDis = (e: ChangeEvent<HTMLInputElement>) => {
         let data = +e.currentTarget.value
         setDistance(data)
-        // setAverageFuel(data)
-        // setTotalPrice(data)
     }
 
     const takeValueMiddleFuel = (e: ChangeEvent<HTMLInputElement>) => {
