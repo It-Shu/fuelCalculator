@@ -9,7 +9,6 @@ function App() {
     const [distance, setDistance] = useState<number>(0)
     const [averageFuel, setAverageFuel] = useState<number>(0)
     const [totalPrice, setTotalPrice] = useState<number>(0)
-    const [test, setTest] = useState<number[]>([1,2,3])
 
     const takeValueDis = (e: ChangeEvent<HTMLInputElement>) => {
         let data = +e.currentTarget.value
