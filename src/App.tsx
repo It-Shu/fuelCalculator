@@ -26,6 +26,8 @@ function App() {
     }
 
 
+
+
     const onCalculate = () => {
         const dist = distance
         const middleFuel = averageFuel
@@ -36,6 +38,8 @@ function App() {
         setFuelSum(result)
         setPrice(fullPrice)
     }
+
+
 
     return (
         <form className="App">
